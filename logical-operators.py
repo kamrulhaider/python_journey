@@ -3,10 +3,21 @@
 
 # Example: We will allow the boy to play outside if his age is more than 30 years and is fit to play outside.
 
-age = 35
-isFitToPlay = True
+# age = 35
+# isFitToPlay = True
 
-if age > 30 and isFitToPlay:
+# if age > 30 and isFitToPlay:
+#     print("You are allowed to play outside.")
+#     print("Let's go!")
+# else:
+#     print("You are not allowed to play outside.")
+
+# Example: We will allow the boy to play outside if his age is more than 30 years or if he is a student.
+
+age = 35
+isStudent = True
+
+if age > 30 or isStudent:
     print("You are allowed to play outside.")
     print("Let's go!")
 else:
